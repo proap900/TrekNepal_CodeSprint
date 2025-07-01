@@ -55,7 +55,8 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
-
+# Firebase config
+app/google-services.json
 # Android Patch
 gen-external-apklibs
 
@@ -134,3 +135,4 @@ fabric.properties
 !/gradle/wrapper/gradle-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/androidstudio
+

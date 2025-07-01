@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.baag.treksahayatri.MainActivity
 import com.baag.treksahayatri.R
 import com.baag.treksahayatri.ui.guide.GuideMainActivity
+import com.baag.treksahayatri.ui.hotel.HotelMainActivity
 import com.baag.treksahayatri.ui.traveller.TravellerMainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -37,7 +38,7 @@ class SplashActivity : AppCompatActivity() {
                             when (role) {
                                 "traveller" -> startActivity(Intent(this, TravellerMainActivity::class.java))
                                 "guide" -> startActivity(Intent(this, GuideMainActivity::class.java)) // Replace with GuideMainActivity if available
-                                "hotel" -> startActivity(Intent(this, MainActivity::class.java)) // Replace with HotelMainActivity if available
+                                "hotel" -> startActivity(Intent(this, HotelMainActivity::class.java)) // Replace with HotelMainActivity if available
                                 else -> {
                                     Toast.makeText(this, "Unknown role: $role", Toast.LENGTH_SHORT).show()
                                     startActivity(Intent(this, LoginActivity::class.java))

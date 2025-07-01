@@ -14,6 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrekSahaYatri">
         <activity
+            android:name=".ui.hotel.ReservationRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hotel.HotelAnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hotel.HotelEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hotel.HotelMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.traveller.TravellerMainActivity"
             android:exported="false" />
         <activity

@@ -79,7 +79,6 @@ class ProfileFragment : Fragment() {
             binding.tvProfileName.text = user.name
             binding.tvProfileEmail.text = user.email
             binding.tvProfileDescription.text = user.description
-            binding.tvProfileGuidingPlaces.text = "Guiding Places: ${user.guidingPlaces}"
             Glide.with(this).load(user.photoUrl).into(binding.ivProfileImage)
         }
 

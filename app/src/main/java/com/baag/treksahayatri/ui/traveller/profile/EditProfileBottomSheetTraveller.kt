@@ -10,7 +10,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import com.baag.treksahayatri.data.model.GuideProfile
-import com.baag.treksahayatri.databinding.BottomSheetEditProfileBinding
+import com.baag.treksahayatri.databinding.BottomSheetEditProfileTravellerBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -20,7 +20,7 @@ import java.util.*
 
 class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 
-	private lateinit var binding: BottomSheetEditProfileBinding
+	private lateinit var binding: BottomSheetEditProfileTravellerBinding
 	private val firestore = FirebaseFirestore.getInstance()
 	private val uid = FirebaseAuth.getInstance().currentUser?.uid ?: ""
 	private var selectedImageUri: Uri? = null
@@ -33,7 +33,7 @@ class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 		inflater: LayoutInflater, container: ViewGroup?,
 		savedInstanceState: Bundle?
 	): View {
-		binding = BottomSheetEditProfileBinding.inflate(inflater, container, false)
+		binding = BottomSheetEditProfileTravellerBinding.inflate(inflater, container, false)
 
 		loadCurrentData()
 
@@ -91,7 +91,6 @@ class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 		val description = binding.etDescription.text.toString().trim()
 		val phone = binding.etPhone.text.toString().trim()
 		val address = binding.etAddress.text.toString().trim()
-		val guidingPlaces = binding.etGuidePlaces.text.toString().trim()
 		val email = FirebaseAuth.getInstance().currentUser?.email ?: ""
 
 		if (name.isBlank() || email.isBlank()) {
@@ -104,10 +103,10 @@ class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 
 		if (selectedImageUri != null) {
 			uploadProfileImage { imageUrl ->
-				updateUser(name, email, description, phone, address,guidingPlaces, imageUrl)
+				updateUser(name, email, description, phone, address, imageUrl)
 			}
 		} else {
-			updateUser(name, email, description, phone, address,guidingPlaces, null)
+			updateUser(name, email, description, phone, address, null)
 		}
 	}
 
@@ -133,7 +132,6 @@ class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 		description: String,
 		phone: String,
 		address: String,
-		guidingPlaces: String,
 		imageUrl: String?
 
 	) {
@@ -143,8 +141,7 @@ class EditProfileBottomSheetTraveller : BottomSheetDialogFragment() {
 			"email" to email,
 			"description" to description,
 			"phone" to phone,
-			"address" to address,
-			"guidingPlaces" to guidingPlaces
+			"address" to address
 		)
 		imageUrl?.let { data["photoUrl"] = it }
 
