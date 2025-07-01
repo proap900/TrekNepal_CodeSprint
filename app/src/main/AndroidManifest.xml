@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrekSahaYatri">
         <activity
+            android:name=".ui.traveller.TravellerMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.guide.profile.FullScreenViewerActivity"
             android:exported="false" />
         <activity
