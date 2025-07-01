@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#2196F3</color>
+    <color name="purple_700">#673AB7</color>
+
+    <color name="pink">#C13584</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+
+    <color name="yellow">#FFFFFF00</color>
+    <color name="orange">#FFFFA500</color>
+    <color name="purple">#FF800080</color>
+    <color name="cyan">#FF00FFFF</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="light_blue">#FFADD8E6</color>
+    <color name="lime">#FF00FF00</color>
+    <color name="silver">#FFC0C0C0</color>
+    <color name="gray">#FF808080</color>
+    <color name="maroon">#FF800000</color>
+    <color name="olive">#FF808000</color>
+    <color name="navy">#FF000080</color>
+    <color name="teal">#FF008080</color>
+    <color name="dark_red">#FF8B0000</color>
+    <color name="gold">#FFFFD700</color>
+    <color name="coral">#FFFF7F50</color>
+    <color name="dark_orange">#FFFF8C00</color>
+    <color name="light_green">#FF90EE90</color>
+    <color name="peach">#FFFFE5B4</color>
+    <color name="chocolate">#FFD2691E</color>
+    <color name="crimson">#FFDC143C</color>
+    <color name="lavender">#FFE6E6FA</color>
+    <color name="plum">#FFDDA0DD</color>
+    <color name="orchid">#FFDA70D6</color>
+    <color name="turquoise">#FF40E0D0</color>
+    <color name="dark_slate_gray">#FF2F4F4F</color>
+    <color name="dark_blue">#FF00008B</color>
+    <color name="sky_blue">#FF87CEEB</color>
+    <color name="spring_green">#FF00FF7F</color>
+    <color name="deep_pink">#FFFF1493</color>
+    <color name="khaki">#FFF0E68C</color>
+    <color name="dark_khaki">#FFBDB76B</color>
+    <color name="indigo">#FF4B0082</color>
+    <color name="steel_blue">#FF4682B4</color>
+    <color name="salmon">#FFFA8072</color>
+    <color name="tomato">#FFFF6347</color>
+    <color name="pale_goldenrod">#FFEEE8AA</color>
+    <color name="dark_magenta">#FF8B008B</color>
+    <color name="dark_cyan">#FF008B8B</color>
+    <color name="dark_violet">#FF9400D3</color>
+    <color name="light_coral">#FFF08080</color>
+    <color name="slate_gray">#FF708090</color>
+    <color name="light_slate_gray">#FF778899</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="medium_slate_blue">#FF7B68EE</color>
+    <color name="medium_aquamarine">#FF66CDAA</color>
+    <color name="sandy_brown">#FFF4A460</color>
+    <color name="dark_sea_green">#FF8FBC8F</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="my_primary">#5E35B1</color>
+    <color name="my_secondary">#673AB7</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="very_light_green">#E8F5E9</color>
+    <color name="light_blue_hover">#B2DFDB</color>
+    <color name="button_text_green">#2E7D32</color>
+
+    <color name="card_blue">#2196F3</color>
+    <color name="card_green">#4CAF50</color>
+    <color name="shadow_color">#66000000</color>
+
+    <color name="dark_golden">#D4AF37</color>
+
+
+
+    <color name="dark_gold">#C9A227</color>
+    <color name="light_gold">#FFF9C4</color>
+    <color name="light_golden_bg">#FFFDE7</color>
+    <color name="gray_light">#BDBDBD</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="light_red">#FFCDD2</color>
+    <color name="onboarding_background">#1C1C28</color>
+    <color name="onboarding_gradient_start">#FF4081</color>
+    <color name="onboarding_gradient_middle">#8A2BE2</color>
+    <color name="onboarding_gradient_end">#4BC0C8</color>
+    <color name="onboarding_text_dark_gray">#B0B0B0</color>
+    <color name="onboarding_text_light_gray">#808080</color>
+    <color name="onboarding_button_tint">#FF4081</color>
+
+
+
+    <color name="chip_background_color">#FFFFFF</color>
+    <color name="chip_stroke_color">#FFD700</color>
+</resources>

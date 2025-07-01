@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828629246731",
+    "project_id": "treksahayatriv2",
+    "storage_bucket": "treksahayatriv2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828629246731:android:6b5524fd0438d084cd780e",
+        "android_client_info": {
+          "package_name": "com.baag.treksahayatri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828629246731-7v33nln03edn8k7o91em3r27v5f7duvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.baag.treksahayatri",
+            "certificate_hash": "718e99881e9aef835680360472d7fe197760d18c"
+          }
+        },
+        {
+          "client_id": "828629246731-rvgoqunhbqsajlgse5h0kfug458pnfcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfoBQR0X00wJ-CHcW4uKm34b68ZZoWRbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828629246731-rvgoqunhbqsajlgse5h0kfug458pnfcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
